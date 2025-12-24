@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_main"
+        android:title="Accueil"
+        android:icon="@android:drawable/ic_input_get" />
+    <item
+        android:id="@+id/nav_users"
+        android:title="Utilisateurs"
+        android:icon="@drawable/ic_user_placeholder" />
+    <item
+        android:id="@+id/nav_groups"
+        android:title="Groupes"
+        android:icon="@drawable/ic_group" />
+    <item
+        android:id="@+id/nav_create_group"
+        android:title="Créer un groupe"
+        android:icon="@drawable/ic_group" />
+    <item
+        android:id="@+id/nav_profile"
+        android:title="Profil"
+        android:icon="@drawable/ic_person" />
+    <item
+        android:id="@+id/btn_logout"
+        android:title="Se Déconnecter"
+        android:icon="@drawable/ic_logout" />
+</menu>

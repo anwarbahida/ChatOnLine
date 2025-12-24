@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "683351953200",
+    "project_id": "chatonline2025-80971",
+    "storage_bucket": "chatonline2025-80971.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:683351953200:android:89ce0dee73632e01b502f5",
+        "android_client_info": {
+          "package_name": "com.projet.chatonline"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdefaok9u2XEY6ziwVCb6J4cz6Fyh7abA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

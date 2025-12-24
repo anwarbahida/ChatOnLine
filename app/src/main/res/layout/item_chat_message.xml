@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+    <!-- ====== Message reçu (gauche) ====== -->
+    <LinearLayout
+        android:id="@+id/left_message_container"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:background="@drawable/bg_message_received"
+        android:padding="8dp"
+        android:layout_marginEnd="50dp">
+
+        <TextView
+            android:id="@+id/chat_message_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:maxWidth="250dp"/>
+
+        <ImageView
+            android:id="@+id/chat_message_image"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="4dp"/>
+
+        <!-- Heure + Date du message reçu -->
+        <TextView
+            android:id="@+id/chat_message_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#777"
+            android:textSize="11sp"
+            android:layout_marginTop="4dp"
+            android:layout_gravity="end"/>
+    </LinearLayout>
+
+    <!-- ====== Message envoyé (droite) ====== -->
+    <LinearLayout
+        android:id="@+id/right_message_container"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:visibility="gone"
+        android:background="@drawable/footer_bg"
+        android:padding="8dp"
+        android:layout_marginStart="50dp">
+
+        <TextView
+            android:id="@+id/chat_message_text_sent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:textSize="15sp"
+            android:maxWidth="250dp"/>
+
+        <ImageView
+            android:id="@+id/chat_message_image_sent"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="4dp"/>
+
+        <!-- Heure + Date du message envoyé -->
+        <TextView
+            android:id="@+id/chat_message_time_sent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:textSize="11sp"
+            android:layout_marginTop="4dp"
+            android:layout_gravity="end"/>
+    </LinearLayout>
+
+</FrameLayout>

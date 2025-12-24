@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:gravity="bottom"
+    android:background="@drawable/bg_right_message">
+
+    <ImageView
+        android:id="@+id/img_user"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:src="@drawable/anwar"
+        android:background="@drawable/circle_bg"
+        android:padding="8dp"/>
+
+
+    <TextView
+        android:id="@+id/tv_username_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Anwar Bahida"
+        android:textColor="@android:color/white"
+        android:textSize="23sp"
+        android:layout_marginTop="8dp" />
+
+</LinearLayout>
